@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Skill's</title>
+    <link
+      rel="Shortcut Icon"
+      type="image/png"
+      href="image/curriculum-vitae.png"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/7318d0bcbd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+          <h2 style="margin: 1rem 0.5rem">Anamuddin Ahmad</h2>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="myintro.html">My Intro</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="Skill.html">Skill's</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="skills">
+        <h1 class="h1Skill">Skill's</h1>
+        <div class="skillsMain">
+          <div class="main1">
+            <h1 class="java">JAVA</h1>
+            <div class="progress-container">
+              <div class="progress-bar" id="myBar1"></div>
+            </div>
+            <h1 class="java">PYTHON</h1>
+            <div class="progress-container">
+              <div class="progress-bar" id="myBar2"></div>
+            </div>
+            <h1 class="java">C</h1>
+            <div class="progress-container">
+              <div class="progress-bar" id="myBar3"></div>
+            </div>
+
+            <h1 class="java">HTML</h1>
+            <div class="progress-container">
+              <div class="progress-bar" id="myBar4"></div>
+            </div>
+            <h1 class="java">CSS</h1>
+            <div class="progress-container">
+              <div class="progress-bar" id="myBar5"></div>
+            </div>
+          </div>
+          <div class="main2">
+            <h1 class="java">JAVA-SCRIPT</h1>
+            <div class="progress-container">
+              <div class="progress-bar" id="myBar6"></div>
+            </div>
+            <div class="main2">
+              <h1 class="java">10th Percentage</h1>
+              <div class="progress-container">
+                <div class="progress-bar" id="myBar7"></div>
+              </div>
+            </div>
+            <div class="main2">
+              <h1 class="java">12th Percentage</h1>
+              <div class="progress-container">
+                <div class="progress-bar" id="myBar8"></div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+        <!-- <h1 class="java">Java</h1>
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div> -->
+      </div>
+    </div>
+    <footer class="">
+      <div>
+        <a href="https://github.com/AnamuddinAhmad" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/anamuddinahmad/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/official_anam_ali/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.hackerrank.com/anamuddinahmad01" target="_blank">
+          <i class="fa-brands fa-hackerrank"></i>
+        </a>
+        <br />
+      </div>
+      <p class="footrTag">copyright&#169;Anamuddin Ahmad</p>
+    </footer>
+    <script>
+      // Set the width of the first progress bar to 50%
+      var bar1 = document.getElementById("myBar1");
+      var width1 = 0;
+      var id1 = setInterval(frame1, 10);
+
+      function frame1() {
+        if (width1 >= 75) {
+          clearInterval(id1);
+        } else {
+          width1++;
+          bar1.style.width = width1 + "%";
+          bar1.innerHTML = width1 + "%";
+        }
+      }
+
+      // Set the width of the second progress bar to 75%
+      var bar2 = document.getElementById("myBar2");
+      var width2 = 0;
+      var id2 = setInterval(frame2, 10);
+
+      function frame2() {
+        if (width2 >= 45) {
+          clearInterval(id2);
+        } else {
+          width2++;
+          bar2.style.width = width2 + "%";
+          bar2.innerHTML = width2 + "%";
+        }
+      }
+      // Set the width of the Theird progress bar to 75%
+      var bar3 = document.getElementById("myBar3");
+      var width3 = 0;
+      var id3 = setInterval(frame3, 10);
+
+      function frame3() {
+        if (width3 >= 65) {
+          clearInterval(id3);
+        } else {
+          width3++;
+          bar3.style.width = width3 + "%";
+          bar3.innerHTML = width3 + "%";
+        }
+      }
+      // Set the width of the second progress bar to 75%
+      var bar4 = document.getElementById("myBar4");
+      var width4 = 0;
+      var id4 = setInterval(frame4, 10);
+
+      function frame4() {
+        if (width4 >= 80) {
+          clearInterval(id4);
+        } else {
+          width4++;
+          bar4.style.width = width4 + "%";
+          bar4.innerHTML = width4 + "%";
+        }
+      }
+      // Set the width of the Fifth progress bar to 75%
+      var bar5 = document.getElementById("myBar5");
+      var width5 = 0;
+      var id5 = setInterval(frame5, 10);
+
+      function frame5() {
+        if (width5 >= 40) {
+          clearInterval(id5);
+        } else {
+          width5++;
+          bar5.style.width = width5 + "%";
+          bar5.innerHTML = width5 + "%";
+        }
+      }
+        // Set the width of the Six progress bar to 75%
+        var bar6 = document.getElementById("myBar6");
+      var width6 = 0;
+      var id6 = setInterval(frame6, 10);
+
+      function frame6() {
+        if (width6 >= 35) {
+          clearInterval(id6);
+        } else {
+          width6++;
+          bar6.style.width = width6 + "%";
+          bar6.innerHTML = width6 + "%";
+        }
+      }
+        // Set the width of the seven progress bar to 75%
+        var bar7 = document.getElementById("myBar7");
+      var width7 = 0;
+      var id7 = setInterval(frame7, 10);
+
+      function frame7() {
+        if (width7 >= 51) {
+          clearInterval(id7);
+        } else {
+          width7++;
+          bar7.style.width = width7 + "%";
+          bar7.innerHTML = width7 + "%";
+        }
+      }
+        // Set the width of the eight progress bar to 75%
+        var bar8 = document.getElementById("myBar8");
+      var width8 = 0;
+      var id8 = setInterval(frame8, 10);
+
+      function frame8() {
+        if (width8 >= 59.8) {
+          clearInterval(id8);
+        } else {
+          width8++;
+          bar8.style.width = width8 + "%";
+          bar8.innerHTML = width8 + "%";
+        }
+      }
+    </script>
+  </body>
+</html>

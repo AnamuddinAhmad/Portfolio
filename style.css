@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+footer {
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: gray;
+  background-color: rgb(68, 68, 68);
+  height: 60px;
+}
+
+footer div {
+  font-weight: 400;
+}
+
+footer div a {
+  font-weight: 400;
+  font-size: 25px;
+  margin: 0rem 1rem;
+}
+
+footer p {
+  margin-bottom: -0.2rem;
+  /* padding: 5px; */
+}
+
+.fa-brands,
+.fab {
+  color: gray;
+}
+
+.sidebar {
+  /* background-color: red; */
+  background-color: rgb(210, 202, 202);
+  width: 200px;
+  font-family: "Barlow Condensed", sans-serif;
+  list-style: none;
+  font-size: 15px;
+  padding: 3px;
+  height: 99%;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 29px;
+  padding: 17px;
+  /* height: 100%; */
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+  /* height: 100%; */
+}
+
+.sidebar nav li a:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
+.main {
+  /* background-color: yellow; */
+  width: 90vw;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+.containercontact {
+  /* border: 4px solid red; */
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+.infocontainer {
+  /* background-color: green; */
+  margin: 144px auto;
+  height: 60vh;
+  width: 74vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.hello {
+  font-size: 50px;
+  color: #3d535f;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  color: #7f00ff;
+}
+
+.about {
+  color: #3d535f;
+  font-size: 33px;
+  font-family: "Rajdhani", sans-serif;
+  margin: 2px;
+}
+
+.moreabout {
+  color: #3d535f;
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.buttons button {
+  /* margin-top:34px; */
+  text-decoration: none;
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: rgb(210, 202, 202);
+  font-weight: bold;
+  font-size: 15px;
+  margin: 19px 3px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: white;
+}
+
+a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.devpng img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #3d535f;
+  border-radius: 10px;
+  height: 60vh;
+  /* filter: brightness(-10%)invert(100%); */
+}
+
+img {
+  animation: animateuser 6s linear infinite;
+  height: 100%;
+  width: calc(130% - 99px);
+  top: -10px;
+  right: -10px;
+}
+
+@keyframes animateuser {
+  50% {
+    right: 5px;
+    top: -30px;
+  }
+}
+
+.contactform {
+  font-family: "Rajdhani", sans-serif;
+  /* margin-top: 144px; */
+  padding: 0px 60px;
+  font-size: bold;
+  height: 100%;
+  overflow-y: scroll;
+  width: calc(100vw - 200px);
+}
+
+.contactform h1 {
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  display: block;
+  padding: 40px;
+  font-weight: bold;
+}
+
+.contactform div {
+  font-size: 17px;
+  padding: 1px 0px;
+  border-radius: 10px;
+  display: flex table-column;
+}
+
+#emailHelp {
+  margin: 0px 0px;
+  color: rgb(107, 110, 112);
+  font-size: 13px;
+}
+
+input {
+  display: flex;
+  border-radius: 8px;
+  border-color: black;
+  width: 250px;
+  margin: 2px 0;
+  padding: 4px;
+}
+
+label {
+  display: flex;
+}
+
+/* .main h1{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(177, 171, 171);
+    font-family: 'Barlow Condensed', sans-serif;
+    
+} */
+.h11 {
+  font-size: 3em;
+  margin-top: 5px;
+  font-family: "Dancing Script", cursive;
+}
+
+b {
+  font-size: 70px;
+  color: #7f00ff;
+}
+
+.warper {
+  display: flex;
+  width: 69%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.cols {
+  width: 100%;
+}
+
+.topline {
+  display: block;
+  position: relative;
+  font-size: 35px;
+  letter-spacing: 5px;
+  color: #3d535f;
+}
+
+.topline::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 45px;
+  bottom: 10px;
+  color: #7f00ff;
+}
+
+.h1Skill {
+  text-align: center;
+  background-color: grey;
+  font-size: 3em;
+  font-family: "Rajdhani";
+  font-weight: 900;
+  margin-top: 44px;
+  color: #000000;
+}
+
+.h1 {
+  display: block;
+  font-size: 3em;
+  font-weight: 900;
+  color: #3d535f;
+}
+
+.multitext {
+  color: #7f00ff;
+  text-transform: capitalize;
+}
+
+.pp {
+  display: block;
+  width: 90%;
+  font-size: 1.4em;
+  color: #3d535f;
+}
+
+.btns {
+  width: 100%;
+  position: relative;
+  left: 0px;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #3d535f;
+  padding: 8px 14px;
+  margin: 40px 50px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
+}
+.skills {
+  width: calc(100vw - 200px);
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+}
+.skills h1 {
+  margin: 0;
+}
+.skillsMain {
+  width: 97%;
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+/* Style the progress bar container */
+.progress-container {
+  width: 85%;
+  background-color: #dedcdc;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+/* Style the progress bar */
+.progress-bar {
+  border-radius: 20px;
+  height: 25px;
+  background-color: #3d535f;
+  width: 0%;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+}
+.java {
+  margin-top: 20px;
+  font-family: "Rajdhani";
+  margin-left: 105px;
+}
+.html {
+  font-family: "Rajdhani";
+  margin-left: 127px;
+}
+.main1 {
+  flex: 1;
+}
+.main2 {
+  flex: 1;
+}
+.plinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-left: 3rem;
+  padding: -21rem;
+  text-align: left;
+}
+.plinks section {
+  box-shadow: 0px 0px 10px gray;
+  width: 242px;
+  margin-top: 85px;
+  height: 320px;
+  font-family: "Rajdhani";
+  border-radius: 10px;
+}
+.plinks section img {
+  width: 100%;
+  height: 50%;
+  margin-top: 30px;
+  /* border: 4px solid red; */
+}
+.plinks section p a {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5rem;
+  width: 10px;
+}
+.plinks section p a:hover {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: #3d535f;
+  width: 10px;
+}
+.plinks section p {
+  padding-left: 1rem;
+  font-size: 20px;
+}
+.plinks section h3 {
+  font-size: 30px;
+  margin-top: 30px;
+  padding-left: 5rem;
+}
+.plinks section p {
+  padding-left: 1rem;
+}
+.part2-div1 h3 {
+  padding: 0.5rem;
+  padding-left: 3rem;
+  margin: 0;
+}
+
+.fa-solid,
+.fas {
+  font-weight: 900;
+  margin-top: 30px;
+  margin-left: 60px;
+}
