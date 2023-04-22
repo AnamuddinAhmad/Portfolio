@@ -190,6 +190,7 @@ img {
   display: block;
   padding: 40px;
   font-weight: bold;
+  margin-bottom: 50px;
 }
 
 .contactform div {
@@ -422,4 +423,15 @@ button {
   font-weight: 900;
   margin-top: 30px;
   margin-left: 60px;
+}
+
+form{
+  
+  position: relative;
+  left: 270px;
+  top: 73px;
+
+}
+form h1{
+  margin-bottom: 50px;
 }
