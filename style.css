@@ -15,6 +15,7 @@ footer {
   flex-direction: column;
   color: gray;
   background-color: rgb(68, 68, 68);
+  /* background-color: red; */
   height: 60px;
 }
 
@@ -68,7 +69,7 @@ footer p {
 }
 
 .main {
-  /* background-color: yellow; */
+  /* background-color: yellow  !important; */
   width: 90vw;
 }
 
@@ -91,6 +92,7 @@ footer p {
   width: 74vw;
   display: flex;
   justify-content: space-around;
+  
 }
 
 .devinfo {
@@ -434,4 +436,44 @@ form{
 }
 form h1{
   margin-bottom: 50px;
+}
+
+/* making it responsive */
+@media screen and (max-width: 500px) {
+  
+.infocontainer {
+ flex-direction: column-reverse;
+  
+}
+.devpng img{
+  position: static;
+  width: 33%;
+  height: 68%;
+}
+.devpng{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.devinfo{
+  margin: 12PX;
+}
+form {
+  /* position: relative; */
+  left: 23px;
+  top: 57px;
+  width: 77%;
+  margin-right: 41px;
+}
+.h1Skill{
+  margin-top: 0px;
+}
+.plinks {
+
+  flex-wrap: wrap;
+  height: 90%;
+  overflow-y: scroll;
+}
+
+
 }
