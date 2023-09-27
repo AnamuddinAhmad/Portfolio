@@ -8,7 +8,7 @@ $github = $_POST["GitHub"];
 // Validate data (e.g., check if email is valid)
 
 // Send email
-$to = "your_email@gmail.com";
+$to = "anamuddinahmad786@gmail.com";
 $subject = "Contact Form Submission from $name";
 $message = "Name: $name\nEmail: $email\nGitHub: $github";
 $headers = "From: $email";
